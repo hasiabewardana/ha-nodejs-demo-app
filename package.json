@@ -1,0 +1,24 @@
+{
+  "name": "ha-nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "This project consists of NodeJS technology.",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasiabewardana/ha-nodejs-demo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasiabewardana/ha-nodejs-demo-app/issues"
+  },
+  "homepage": "https://github.com/hasiabewardana/ha-nodejs-demo-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
