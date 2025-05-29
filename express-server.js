@@ -17,3 +17,8 @@ app.post('/data', (req, res) => {
 
 // Starts the server and listens for requests on port 3000.
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
+
+// Error Handling
+app.use((err, req, res, next) => {
+  res.status(500).json({ error: 'Something went wrong!' });
+});
